@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_news{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    max-width: 1500px;
+    height: 150vh;
+}
+.news_heading{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background: url('https://cdn.pixabay.com/photo/2017/03/14/08/10/wood-2142241__480.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    flex-direction: column;
+    background-size: cover;
+}
+.news_heading >p{
+    color: #D27D2D;
+    font-size: 40px;
+    height: 200px;
+    margin-top: 90px;
+}
+.news_container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    max-width: 1500px;
+    align-items: center;
+    margin-top: 40px;
+}
+.news_row{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content:space-evenly;
+}
+.one_news{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 0 15px 5px rgb(236, 222, 222);
+    background: white;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+}
+.news_title{
+    color: #D27D2D;
+    font-size: 23px;
+    font-family: Times, Times New Roman, serif;
+    margin: 20px;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+.news_body{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin: 20px;
+    margin-bottom: 10px;
+    font-family:'Roboto Slab', serif;
+    text-align: justify;
+
+}
+.readmore{
+    color: #D27D2D;
+    margin: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+}
