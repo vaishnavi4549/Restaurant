@@ -3,10 +3,9 @@
     padding: 0;
 }
 .footer_main{
-    max-width: 1500px;
     width: 100%;
     height: 100vh;
-    margin-top: 25%;
+    margin-top: 5%;
     position:relative;
     align-items: center;
     z-index: 1;
@@ -16,7 +15,6 @@
     flex-direction: row;
     justify-content:space-around;
     object-fit: contain;
-    height: 400px;
     background-color: #d78a42;
 }
 .footer_content{
@@ -51,9 +49,7 @@
     padding: 2px;
 }
 .footer_bottom{
-    max-width: 1500px;
     width: 100%;
-    height: 80%;
     margin-top: 5%;
     position:relative;
     align-items: center;
